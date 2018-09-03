@@ -1,0 +1,70 @@
+body{
+	
+}
+
+p~div{
+	background-color:#ffffff;
+}
+
+p{
+	font-family: 'Arial';
+	/* font-style: italic; */
+	font-weight: bold;
+	text-indent: 25px;
+}
+div>span{
+	color: white !important;
+	
+	
+}
+p::selection{
+	font-size: 10px !important;
+	background-color:yellow;
+}
+span{
+	color: black;
+	background-color: gray;
+	
+}
+
+a{
+	color:green;
+	text-decoration: none;
+}
+a:active{
+	color:red;
+}
+
+a[href="#"]{
+	color:#555555;
+	
+	
+}
+p{
+	word-wrap: break-word;
+}
+P:hover{
+	color:red;
+}
+h3{
+	position:center;
+	text-align:center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.textBig{
+	font-size: 25px;
+	border-color: #000 red blue yellow;
+	border-style: dotted dashed solid double;
+	border-width: 5px 10px 12px 2px;
+	text-align: justify;
+	position: absolute;
+	
+}
+
+.textOrange{
+	color:orange;
+}
